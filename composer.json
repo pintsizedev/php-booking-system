@@ -1,0 +1,21 @@
+{
+    "name": "pintsizedev/php-booking-system",
+    "description": "Booking system in php",
+    "authors": [
+        {
+	    "name": "Daniel Burnley",
+            "email": "dan@pintsize.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pintsize\\BookingSystem\\": [
+                "src/",
+                "test/"
+            ]
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^5.0"
+    }
+}
